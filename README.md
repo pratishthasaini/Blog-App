@@ -23,15 +23,11 @@ This is a full-stack web application for creating and managing a blog using the 
 
 ## Installation
 
-1. Clone the repository:
+ Clone the repository:
 
-##bash
 `git clone https://github.com/yourusername/mern-blog-app.git`
 
-
-
-2. Navigate to the project directory:
-
+Navigate to the project directory:
 
 `cd mern-blog-app`
 
@@ -55,12 +51,13 @@ Create a .env file in the root directory and add the following environment varia
 `touch .env`
 
 Open the .env file using a text editor, and add the following environment variables:
-```makefile```
+makefile
 
-`MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret`
+`MONGO_URI=your_mongodb_uri`
+`JWT_SECRET=your_jwt_secret`
 Replace your_mongodb_uri with your MongoDB connection URI and your_jwt_secret with a random string for JWT token encryption.
-Start the server:
+
+##Start the server:
 
 `npm run server`
 In a separate terminal, start the client:
